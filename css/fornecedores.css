@@ -747,8 +747,8 @@ button:hover {
     font-size: 1.5rem;
     color: white;
     position: absolute;
-    left: 12%;
-    top: 18%;
+    left: 18%;
+    top: 16%;
   }
   .text-between {
     display: block;
@@ -824,7 +824,7 @@ button:hover {
   .title-text {
     font-size: 1.8rem;
     position: absolute;
-    left: 45.5%;
+    left: 44.1%;
     top: 23%;
   }
   .fornece-story {
@@ -840,7 +840,7 @@ button:hover {
   .title-text {
     font-size: 1.8rem;
     position: absolute;
-    left: 46.5%;
+    left: 45%;
     top: 23%;
   }
   .fornece-story {
@@ -856,7 +856,7 @@ button:hover {
   .title-text {
     font-size: 1.8rem;
     position: absolute;
-    left: 41.5%;
+    left: 38.9%;
     top: 22%;
   }
   .fornece-story {
@@ -873,10 +873,10 @@ button:hover {
     left: 30%;
   }
   .title-text {
-    font-size: 1.6rem;
+    font-size: 1.4rem;
     position: absolute;
-    left: 35%;
-    top: 14%;
+    left: 34%;
+    top: 15%;
   }
   .fornece-story {
     font-size: 1.3rem;

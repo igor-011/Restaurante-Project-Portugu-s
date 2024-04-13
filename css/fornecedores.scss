@@ -1,0 +1,74 @@
+@use "style.scss";
+
+@media (min-width: 1351px){
+    :root{
+        font-size: 18px;
+    }
+    .title-text{
+        font-size: 1.8rem;
+        position: absolute;
+        left: 45.5%;
+        top: 23%;
+        
+    }
+    .fornece-story{
+        font-size: 1rem;
+        color: white;
+        width: 100%;
+    }
+}
+@media (min-width: 1024px)and (max-width: 1350px){
+    :root{
+        font-size: 16px;
+    }
+    .title-text{
+    font-size: 1.8rem;
+    position: absolute;
+    left: 46.5%;
+    top: 23%;
+    
+}
+.fornece-story{
+    font-size: 1rem;
+    color: white;
+    width: 100%;
+}
+}
+@media (min-width: 590px) and (max-width: 1023px){
+    :root{
+        font-size: 14px;
+    }
+    .title-text{
+    font-size: 1.8rem;
+    position: absolute;
+    left: 41.5%;
+    top: 22%;
+    
+}
+.fornece-story{
+    font-size: 1.2rem;
+    color: white;
+    width: 100%;
+}
+}
+
+@media (min-width: 200px) and (max-width: 589px){
+    :root{
+        font-size: 12px;
+    }
+    .title{
+        left: 30%;
+    }
+    .title-text{
+    font-size: 1.6rem;
+    position: absolute;
+    left: 35%;
+    top: 14%;
+    
+}
+.fornece-story{
+    font-size: 1.3rem; 
+    color: white;
+    width: 100%;
+}
+}

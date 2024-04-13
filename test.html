@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en" style="background-color: rgb(224, 224, 224);">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body, h1, form, label, input, textarea, button {
+    margin: 0;
+    padding: 0;
+}
+
+/* Style the form container */
+form {
+    background-color: aqua;
+    max-width: 400px; /* Adjust the maximum width as needed */
+    margin: 0 auto; /* Center the form horizontally */
+}
+
+/* Style labels */
+label {
+    background-color: #4CAF50;
+    display: block; /* Display labels as blocks to stack them vertically */
+    margin-bottom: 5px; /* Add margin to create space below each label */
+}
+
+/* Style inputs and textareas */
+input, textarea {
+    background-color: aquamarine;
+    width: 100%; /* Make inputs and textareas take full width of their container */
+    padding: 8px; /* Add padding for better visual appearance */
+    margin-bottom: 10px; /* Add margin to create space below each input */
+}
+
+/* Style the submit button */
+button {
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+    </style>
+</head>
+<body>
+    <p>form</p>
+    <form  action="">
+        <label for="name"> Name: </label>
+        <input type="text" name="" id="" required style="margin-right: 10%;">
+        <label for="email">Email: </label>
+        <input type="text" name="" id=""required style="margin-right: 10%;">
+        <label for="celphone">celphone: </label>
+        <input type="tel" pattern="[0-9]{3}-[0-9]{3}-[0-9{4}" placeholder="format: 123-456-7890" required style="margin-right: 10%;">
+        <label for="guests">Number of Guests:</label>
+        <input type="number" name="" min="1" id="" required style="margin-right: 15%;">
+        <label for="">Preffered Date:</label>
+        <input type="date" name="" id="" required placeholder="date" style="display: inline-block;">
+        <label for="">Special Requests</label>
+        <textarea type="request" rows="4" placeholder=""></textarea>
+        <button  type="submit"> Submit Reservation</button>
+    </form>
+</body>
+</html>

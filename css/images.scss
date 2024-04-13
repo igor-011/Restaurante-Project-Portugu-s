@@ -1,0 +1,88 @@
+@media (min-width: 1024px){
+.ima{
+    margin-left: 0.5%;
+    padding-top: 0px;
+    background-color: black;
+    object-fit: cover;
+    height: 656px;
+    width: 99%;
+}
+.examples{
+    height: 400px;
+    width: 100%;
+    object-fit: cover;
+    margin-bottom: 2%;
+}
+.pages{
+    margin-left: 0;
+    margin-bottom: 0%;
+    margin-right: 0;
+    color: white;
+    width: 99%;
+    margin-left: 0.5%;
+}
+.footer{
+    height: 620px;
+    width: 99%;
+    margin-left: 0.5%;
+    object-fit: cover;
+}
+}
+
+
+
+@media (min-width: 590px) and (max-width:1023px){
+.ima{
+    padding-top: 0px;
+    background-color: black;
+    object-fit: cover;
+    height: 640px;
+    width: 100%;
+}
+.pages{ 
+    margin-right: 0;
+    color: white;
+    width: 99%;
+    margin-left: 0.5%;
+}
+.examples{
+    height: 300px;
+    width: 100%;
+    object-fit: cover;
+    margin-bottom: 2%;
+}
+.footer{
+    height: 620px;
+    width: 100%;
+    object-fit: cover;
+    margin-top: 1%;
+}
+}
+
+@media(min-width: 200px) and (max-width: 589px){
+.ima{
+    padding-top: 0px;
+    background-color: black;
+    object-fit: cover;
+    height: 500px;
+    width: 100%;
+}
+.pages{ 
+    color: white;
+    width: 99%;
+    margin-top: 2%;
+    margin-left: 0.5%;
+}
+.examples{
+    height: 300px;
+    width: 100%;
+    object-fit: cover;
+    margin-bottom: 3%;
+}
+.footer{
+    height: 620px;
+    width: 100%;
+    object-fit: cover;
+    margin-top: 1%;
+}
+}

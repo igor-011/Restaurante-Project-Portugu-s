@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+
+
+/* Style the form container */
+
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/eventos.css">
+    <title>Events le'president</title>
+    <img class="ima" src="https://www.gnu.com.br/uploads/espacos/salao-de-festas-uniao1673038115.webp" alt="">
+    <a href="index.html"><h1 class="title text-shadow-light">Le'President</h1></a>
+    <h2 class="title-text text-shadow-light">Events</h2>
+</head>
+<body>
+        <div class="container">
+        <div class="image">
+            <img class="jacquin" src="https://static.poder360.com.br/2021/07/20210725_CESAR-LOPES_-08.jpeg">
+        </div>
+        <div class="texxt f-white">
+            <h1 class="tiltle f-white "><p>The Président restaurant specializes in providing sophisticated and memorable events for its clients. When initiating the planning of an event, clients get in touch with the dedicated Président team, which is ready to assist in all aspects of the organization.
+                <br>
+                The first step is an initial consultation, where clients have the opportunity to share their visions, preferences, and specific needs for the event. The Président team then works closely with clients to understand their desires and create a personalized event that meets all expectations.
+                <br>
+                One of the essential aspects is the menu. The talented chefs at Président present a variety of gastronomic options, from sophisticated hors d'oeuvres and canapés to elegant main courses and delicious desserts. The restaurant's events team assists in selecting dishes, taking into account clients' culinary preferences and flavor harmonization.
+                <br>
+                In addition to gastronomy, the space's decoration is carefully planned to create the desired atmosphere. Président offers a wide range of decoration options, from elegant floral arrangements to furniture layout according to the event's style. Details such as lighting, colors, and textures are considered to create a charming and inviting environment.
+                <br>
+                Président has different spaces available for hosting events, adaptable to various sizes and formats. From private lounges for more intimate events to larger areas for bigger parties, the restaurant can accommodate a variety of needs. The events team assists in choosing the most suitable space, considering the number of guests and the desired configuration.
+                <br>
+            </p>
+            
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="image">
+            <img class="jacquin" src="https://experiencelounge.com.br/wp-content/uploads/2019/05/Workshop-Felipe-Caputo-Capa-e1558016533551.jpg">
+        </div>
+        <div class="texxt f-white">
+            <h1 class="tiltle f-white "><p class="divid"></p>
+                <p>During the event, the Président service team is highly professional and attentive, ensuring that guests are treated with courtesy and efficiency. The team is prepared to handle special requests, providing personalized service that ensures the comfort and satisfaction of everyone present.
+                    <br>
+                    When choosing Président as the venue for the event, clients can expect personalized service from the first contact to the conclusion of the event. The restaurant's team is committed to understanding the unique needs and desires of each client, ensuring that every detail is carefully planned and executed.
+                    <br>
+                    During the initial consultation, the Président team strives to get to know the clients, their style, gastronomic preferences, and goals for the event. This interaction helps create a bond of trust, allowing clients to feel comfortable sharing their expectations and asking questions about every stage of the planning process.
+                    <br>
+                    Based on the information gathered, the Président events team collaborates with the chefs to create a personalized menu adapted to the clients' style and preferences. Whether it's a themed dinner, a sophisticated cocktail, or a tasting menu, each dish is carefully crafted and presented impeccably, with special attention to fresh ingredients and visually appealing presentation.
+                    <br>
+                    Regarding decoration, Président offers a wide variety of options to create the desired atmosphere. Clients can collaborate with the restaurant's decoration team to define the theme, colors, floral arrangements, and other decorative details.
+                    <br>
+                </p>                
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="image">
+            <img class="jacquin" src="https://www.welcomechef.com.br/imgs/original/93da577e69d7877df4e4121824e67b6b.jpg">
+        </div>
+        <div class="texxt f-white">
+            <h1 class="tiltle f-white "><p class="divid"><p>
+                <p>The Président team possesses knowledge and experience in transforming the restaurant's spaces into elegant and exclusive settings, adding a special touch that reflects the client's vision.
+                    <br>
+                    Regarding the physical space, Président has different areas available for events. This allows clients to choose the environment that best suits the size and format of the event, ensuring comfort and an engaging experience for the guests. The spaces are elegantly decorated, providing a pleasant and sophisticated atmosphere.
+                    <br>
+                    During the event itself, the Président service team strives to offer high-level service. Waiters and waitresses are trained to provide a welcoming and efficient experience, ensuring that each guest is served with professionalism and courtesy. The team is ready to handle special requests, such as dietary restrictions, and is committed to creating a warm and enjoyable atmosphere for all participants.
+                    <br>
+                </p>                
+        </div>
+    </div>
+    
+</div>
+<div class="formImageDiv">
+
+    <h1 class="h1form" style="color: white;">Reserve Your Table</h1>
+<p class="pform" style="color: white;">Experience a delightful culinary journey with us. Secure your table now to savor exquisite dishes and create lasting memories. We look forward to serving you!</p>
+
+    
+    <form class="form" action=""  >
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" required placeholder="Name">
+    
+    <!-- Email Input -->
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required placeholder="Email">
+    
+    <!-- Phone Number Input -->
+    <label for="phone">Phone Number:</label>
+    <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="Format: 123-456-7890" required>
+    <!--<small>Format: 123-456-7890</small>-->
+    
+    <!-- Date Input -->
+    <label for="date">Preferred Date:</label>
+    <input type="date" class="date" id="date" name="date" required placeholder="Preffered Date">
+    
+    <!-- Number of Guests Input -->
+    <label for="guests">Number of Guests:</label>
+    <input type="number" id="guests" name="guests" min="1" required placeholder="Number of guests">
+    
+        <!-- Special Requests Input -->
+        <label for="requests">Special Requests:</label>
+        <textarea id="requests" name="requests" rows="4"></textarea >
+            
+            <!-- Submit Button -->
+            <button class="submitButton" type="submit" onclick="validateForm()">Submit Reservation</button>
+        </form>
+    </div>
+    </body>
+<script>
+    function validateForm() {
+            // Get form elements
+            var name = document.getElementById('name').value;
+            var email = document.getElementById('email').value;
+            var phone = document.getElementById('phone').value;
+            var date = document.getElementById('date').value;
+            var guests = document.getElementById('guests').value;
+
+            // Validate required fields
+            if (name === '' || email === '' || phone === '' || date === '' || guests === '') {
+                alert('Please fill out all required fields before submitting.');
+            } else {
+                // All required fields are filled, display the alert message
+                alert('Reservation successful!\nName: ' + name + '\nEmail: ' + email + '\nPhone: ' + phone + '\nDate: ' + date + '\nGuests: ' + guests);
+                // You can also submit the form using form.submit() if needed
+                // document.getElementById('bookingForm').submit();
+            }
+        }
+</script>
+<footer>
+    <div class="container">
+        <img class="footer" src="https://gm360.com.br/wp-content/uploads/2020/03/redGDM_8552.jpg">
+           <div class="texto left-text text-shadow-dark">
+               <h1 class="space">Opening Hours</h1>
+               <p class="space">
+               <p class="space">Monday to Saturday:</p>
+               <p class="space">12 PM to 4 PM/ 7 PM to 11:30 PM</p>
+              <p class="space">domingo</p>
+              <p class="space">12h às 17h</p>
+           </p>
+       </div>
+       <div class="texto middle-text text-shadow-dark">
+           <h1 class="space">Location</h1>
+           <p class="space">
+               <p class="space">Rua da Consolação, nº 3527</p> 
+               <p class="space">Jardins/SP</p>
+               <p class="space">São paulo</p>
+               <p class="space">SP</p>        
+           </p>
+       </div>
+       <div class="texto right-text text-shadow-dark">
+           <h1 class="space">Contact</h1>
+           <p class="space">
+               <p class="space">Phone: (011) 3062-7169</p>
+               <p class="space">Reservation: (11) 99729.8418 WhatsApp ⤵️</p> 
+               <p class="space">or through the link:</p>
+               <p class="space"><a style="color: white;" href="onne.link/president_jacquin">onne.link/president_jacquin</a></p>
+               <button class="s-media"><a target="_blank" href="https://twitter.com/erickjacquin"><img class="t-social" src="https://static.toiimg.com/thumb/msid-102075304,width-1280,height-720,resizemode-4/102075304.jpg"></a></button>
+               <button class="s-media"><a target="_blank" href="https://www.instagram.com/president_jacquin/"><img class="t-social" src="https://freelogopng.com/images/all_img/1683191308instagram-logo-black-and-white.png"></a></button>
+           </p>
+       </div>
+   </div>
+   <div>
+     
+   </div>
+<!--
+    <div class="options ">
+        <button class="options-f">Sobre</button>
+        <button class="options-f">Fornecedores</button>
+        <button class="options-f">Eventos</button>
+       </div>-->
+       <button id="scrollToTopBtn">Top</button>
+        <script src="script.js"></script>
+   </footer>
+</html>

@@ -11,7 +11,7 @@
     height: 400px;
     width: 100%;
     object-fit: cover;
-    margin-bottom: 2%;
+    
   }
   .pages {
     margin-left: 0;
@@ -46,7 +46,7 @@
     height: 300px;
     width: 100%;
     object-fit: cover;
-    margin-bottom: 2%;
+    
   }
   .footer {
     height: 620px;
@@ -73,7 +73,7 @@
     height: 300px;
     width: 100%;
     object-fit: cover;
-    margin-bottom: 3%;
+   
   }
   .footer {
     height: 620px;

@@ -180,6 +180,15 @@ button:hover {
   text-shadow: 3px 3px 6px black;
 }
 
+.center-titles {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  bottom: 600px;
+  left: 36%;
+}
+
 @media (min-width: 1024px) {
   :root {
     font-size: 16px;
@@ -223,16 +232,12 @@ button:hover {
     font-size: 2.8rem;
     color: white;
     position: absolute;
-    left: 42%;
-    top: 15%;
+    bottom: 60%;
   }
   .title-text {
     font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
     font-size: 2.4rem;
     color: white;
-    position: absolute;
-    left: 35%;
-    top: 23%;
   }
   .text-between {
     display: block;
@@ -272,24 +277,6 @@ button:hover {
     right: 3%;
     top: -700%;
   }
-  /*.Horarios{
-      color: white;
-      position: absolute;
-      top: 290%;
-      left: 27%;
-  }
-  .local{
-      color: white;
-      position: absolute;
-      top: 290%;
-      left: 45%;
-  }
-  .contato{
-      color: white;
-      position: absolute;
-      top: 290%;
-      left: 67%;
-  }*/
   .middle-text {
     top: 48%; /* Vertically center */
     left: 50%; /* Horizontally center */
@@ -370,16 +357,12 @@ button:hover {
     font-size: 2.8rem;
     color: white;
     position: absolute;
-    left: 36%;
-    top: 15%;
+    bottom: 60%;
   }
   .title-text {
     font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
     font-size: 1.8rem;
     color: white;
-    position: absolute;
-    left: 30%;
-    top: 23%;
   }
   .text-between {
     display: block;
@@ -469,19 +452,18 @@ button:hover {
 @media (min-width: 380px) and (max-width: 589px) {
   .title {
     font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-    font-size: 2.1rem;
+    font-size: 1.9rem;
     color: white;
     position: absolute;
-    left: 32%;
-    top: 12%;
+    left: 10%;
+    bottom: 60%;
   }
   .title-text {
     font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     color: white;
-    position: absolute;
-    left: 25%;
-    top: 18%;
+    position: relative;
+    right: 14%;
   }
   :root {
     font-size: 12px;
@@ -733,19 +715,18 @@ button:hover {
   }
   .title {
     font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-    font-size: 2.1rem;
+    font-size: 1.9rem;
     color: white;
     position: absolute;
-    left: 29%;
-    top: 10%;
+    right: 40%;
+    bottom: 60%;
   }
   .title-text {
     font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
     font-size: 1.5rem;
     color: white;
-    position: absolute;
-    left: 18%;
-    top: 16%;
+    position: relative;
+    right: 15%;
   }
   .text-between {
     display: block;
